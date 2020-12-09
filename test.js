@@ -16,7 +16,7 @@ test('basic', function (t) {
   spies.push((options) => {
     let m
 
-    // Return a mock of telemetry-processor-ec2-instance-tags;
+    // Return a mock of @telemetry-js/processor-ec2-instance-tags;
     // most of the functionality is tested there.
     return {
       process: (metric) => {
